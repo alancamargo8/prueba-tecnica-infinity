@@ -12,7 +12,7 @@ export default function User() {
           <span className="text-xs">Administrador</span>
         </div>
         <div>
-          <Image src={imgCarlota} alt="imagen usuario"/>
+          <Image src={imgCarlota} alt="imagen usuario" />
         </div>
       </div>
     </>

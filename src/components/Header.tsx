@@ -4,7 +4,7 @@ import User from "@/components/User";
 
 //Import image
 import icoConsolidado from "@/image/ico-contribute.svg";
-import imgNotification from "@/image/img-notification.svg"
+import imgNotification from "@/image/img-notification.svg";
 
 export default function Header() {
   return (
@@ -28,7 +28,7 @@ export default function Header() {
               </div>
             </Link>
             <div className="p-1 shadow rounded-lg">
-              <Image src={imgNotification} alt="imagen notificacion"/>
+              <Image src={imgNotification} alt="imagen notificacion" />
             </div>
             <User />
           </div>
